@@ -1,0 +1,12 @@
+[project]
+name = "cactus"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cactus-needle[mic]>=3.2.8",
+    "fastapi[standard]>=0.115",
+    "python-multipart>=0.0.9",
+    "soundfile>=0.12",
+]
